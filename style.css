@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background:linear-gradient(135deg,#71e0e8,#608fbf);
+  text-align: center;
+  padding: 30px;
+}
+
+.words, .boxes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+.word {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  border: 2px solid #333;
+  cursor: grab;
+  font-size: 22px;
+}
+
+.box {
+  width: 180px;
+  min-height: 120px;
+  background: #fff;
+  border: 3px dashed #888;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.correct {
+  background: #d07ec5;
+}
+
+.wrong {
+  background: #ad7a7a;
+}
